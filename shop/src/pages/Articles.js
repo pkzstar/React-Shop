@@ -29,7 +29,7 @@ const ArticlesPage = () => {
                 <p className="article-date">7/11/24</p>
               </h1>
               <p className="article-body">
-                Just getting a weekly started and interested in having a stream, or looking for the path to the highest quality capture possible? Whatever your situation may be, this guide will walk you through a variety of configurations for recording across many different price points.
+                Just getting a weekly started and interested in having a stream, or looking for the path to the highest quality capture possible? Whatever your situation may be. this guide will walk you through a variety of configurations for recording across many different price points.
               </p>
               <a className="articleRead" href="articles/console-capture.html">Read More</a>
             </div>
