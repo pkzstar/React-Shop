@@ -1,33 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { Link } from 'react-router-dom';
-import LogoPage from './logoPage';
-import Test from './Test';
-import Landing from './pages/landing';
+import './components/NavBarComponent.css';
+import './index.css'
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import NavBarComponent from './components/navbar';
+import ArticlesPage from './pages/Articles'; 
+import EventModule from './components/EventsList.js';
 
 
 function App() {
   return (
-    <div className="App">
     <Router>
-      <div>
-          <Link to="/logo">Logo</Link>
-          <Link to="/home">Home</Link>
-          <Link to="/">Landing</Link>
+      <div className="App">
+        <NavBarComponent />
+        <div>
+          <Routes>
+            <Route path="/articles" element={<ArticlesPage />} />
+            <Route path="/" element={<EventModule />} />
 
-
-      <Routes>
-        <Route path='/logo' element={<LogoPage />} />
-        <Route path='/home' element={<Test />} />
-        <Route path='/' element={<Landing />} />
-
-
-      </Routes>
+          </Routes>
+        </div>
       </div>
-      </Router>
-    </div>
+    </Router>
   );
 }
 
