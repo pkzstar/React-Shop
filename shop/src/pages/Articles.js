@@ -1,13 +1,16 @@
+//articles pagme
+
 import React from 'react';
 import '../index.css';
-import '../components/NavBarComponent.css'
+
+
 // import lightMode from '../generaljscss/lightMode.js';
 // import script from '../generaljscss/script.js'; 
 
 const ArticlesPage = () => {
   return (
+    
     <div>
-      <div id="navBar"></div>
       <img id="bulb" className="lightBulb" alt="Light Bulb" />
 
       <div className="wallpaper"></div>
@@ -19,12 +22,14 @@ const ArticlesPage = () => {
 
       <div id="articlejs">
         <ul>
-          <li style={{ flex: 0 }} className="articleStyle">
+        <li className="articleStyle">
+          {/* <li style={{ flex: 0 }} className="articleStyle"> */}
             <a href="articles/console-capture.html">
               <img className="article-banner" src="https://github.com/pkzstar/plus-side/blob/main/images/Article-images/console-capture/ConsoleCapture.png?raw=true" alt="Console Capture" />
             </a>
             <div>
-              <h1 style={{ flex: 100 }} className="article-head">
+            <h1 className="article-head">
+              {/* <h1 style={{ flex: 100 }} className="article-head"> */}
                 <a href="articles/console-capture.html" className="articleTitle">Motobug's In-Depth Guide to Project M Console Capture</a>
                 <p className="article-date">Written by: <a href="https://twitter.com/Motobug_" target="_blank" rel="noopener noreferrer" className="articleAuthor">@Motobug_</a></p>
                 <p className="article-date">7/11/24</p>
@@ -37,12 +42,15 @@ const ArticlesPage = () => {
           </li>
 
           {/* Repeat for other articles, replacing links, images, and text as needed */}
-          <li style={{ flex: 0 }} className="articleStyle">
+          <li className="articleStyle">
+          {/* <li style={{ flex: 0 }} className="articleStyle"> */}
             <a href="articles/The-Bigger-Mile-High-Club.html">
               <img className="article-banner" src="https://github.com/pkzstar/plus-side/blob/main/images/Article-images/tbmhc/tbmhc%20img.png?raw=true" alt="The Bigger Mile High Club" />
             </a>
             <div>
-              <h1 style={{ flex: 100 }} className="article-head">
+              <h1 className="article-head">
+              {/* <h1 style={{ flex: 100 }} className="article-head"> */}
+
                 <a href="articles/The-Bigger-Mile-High-Club.html" className="articleTitle">The Bigger Mile High Club and my time as a TO</a>
                 <p className="article-date">Written by: <a href="https://twitter.com/FemmeboiRoy" target="_blank" rel="noopener noreferrer" className="articleAuthor">@FemmeBoiRoy</a></p>
                 <p className="article-date">5/25/24</p>

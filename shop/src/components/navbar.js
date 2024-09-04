@@ -1,6 +1,9 @@
-import React from 'react';
+//navbar template js
 
+import React from 'react';
 import { Link } from 'react-router-dom';
+import '../index.css';
+
 
 function NavBarComponent() {
   return (

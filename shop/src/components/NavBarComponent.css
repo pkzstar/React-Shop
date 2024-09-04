@@ -6,6 +6,9 @@
     margin: 0;
     position: relative;
 }
+#root {
+    display: unset;
+}
 #navText:hover {
     color: rgb(10, 180, 88);
     /* transform: scale3d(1.1, 1.1, 1.1);  */

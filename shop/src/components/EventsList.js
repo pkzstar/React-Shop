@@ -8,7 +8,6 @@ const EventComponent = ({ eventData }) => {
 
 
   return (
-
     <li className="events">
       <a href={eventData.link} target="_blank" rel="noopener noreferrer">
         <img
