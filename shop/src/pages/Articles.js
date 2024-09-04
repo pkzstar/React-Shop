@@ -1,5 +1,6 @@
 import React from 'react';
 import '../index.css';
+import '../components/NavBarComponent.css'
 // import lightMode from '../generaljscss/lightMode.js';
 // import script from '../generaljscss/script.js'; 
 
@@ -20,7 +21,7 @@ const ArticlesPage = () => {
         <ul>
           <li style={{ flex: 0 }} className="articleStyle">
             <a href="articles/console-capture.html">
-              <img className="article-banner" src="./images/Article-images/console-capture/ConsoleCapture.png" alt="Console Capture" />
+              <img className="article-banner" src="https://github.com/pkzstar/plus-side/blob/main/images/Article-images/console-capture/ConsoleCapture.png?raw=true" alt="Console Capture" />
             </a>
             <div>
               <h1 style={{ flex: 100 }} className="article-head">
@@ -38,7 +39,7 @@ const ArticlesPage = () => {
           {/* Repeat for other articles, replacing links, images, and text as needed */}
           <li style={{ flex: 0 }} className="articleStyle">
             <a href="articles/The-Bigger-Mile-High-Club.html">
-              <img className="article-banner" src="./images/Article-images/tbmhc/tbmhc img.png" alt="The Bigger Mile High Club" />
+              <img className="article-banner" src="https://github.com/pkzstar/plus-side/blob/main/images/Article-images/tbmhc/tbmhc%20img.png?raw=true" alt="The Bigger Mile High Club" />
             </a>
             <div>
               <h1 style={{ flex: 100 }} className="article-head">
