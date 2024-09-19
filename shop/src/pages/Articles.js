@@ -1,7 +1,9 @@
-//articles pagme
+//articles page
 
 import React from 'react';
 import '../index.css';
+import ThemeToggleComponent from '../components/LightMode.js';
+
 
 
 // import lightMode from '../generaljscss/lightMode.js';
@@ -11,10 +13,11 @@ const ArticlesPage = () => {
   return (
     
     <div>
-      <img id="bulb" className="lightBulb" alt="Light Bulb" />
 
       <div className="wallpaper"></div>
       <div className="wallpaper2"></div>
+
+      <ThemeToggleComponent />
 
       <div className="upcomingImageParent">
         <h1 id="pageHeader" className="textGradient">ARTICLES</h1>

@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import NavBarComponent from './components/navbar';
 import ArticlesPage from './pages/Articles'; 
 import EventModule from './components/EventsList.js';
+import Calendar from './components/Calendar/Calendar.jsx'
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Routes>
             <Route path="/articles" element={<ArticlesPage />} />
             <Route path="/" element={<EventModule />} />
+            <Route path="/calendar" element= {<Calendar />} />
 
           </Routes>
         </div>
