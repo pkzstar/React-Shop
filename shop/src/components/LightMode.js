@@ -1,7 +1,12 @@
 import React, { useState, useEffect, useRef } from 'react';
 
 const useTheme = () => {
-  const [theme, setTheme] = useState('dark');
+  // Initialize theme based on local storage or default to 'dark'
+  const [theme, setTheme] = useState(() => {
+    const savedTheme = localStorage.getItem('theme');
+    return savedTheme ? savedTheme : 'light'; 
+  });
+  
 
   const toggleTheme = () => {
     const newTheme = theme === 'dark' ? 'light' : 'dark';
@@ -10,8 +15,11 @@ const useTheme = () => {
   };
 
   useEffect(() => {
-    const savedTheme = localStorage.getItem('theme') || 'dark';
-    setTheme(savedTheme);
+    // This can remain if you want to sync theme if changed externally
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme) {
+      setTheme(savedTheme);
+    }
   }, []);
 
   return { theme, toggleTheme };
@@ -28,9 +36,10 @@ const ThemeToggleComponent = () => {
     bulbRef.current.src = bulbImage;
     
     const bgColor = theme === 'dark' ? 'black' : 'white';
-    const textColor = theme === 'dark' ? 'white' : 'black';
+    const oppositeTextColor = theme === 'dark' ? 'black' : 'white';
+    
     document.body.style.backgroundColor = bgColor;
-    document.querySelectorAll('.pastEventsHeader, .patrons, .donorName').forEach(el => el.style.color = textColor);
+    document.querySelectorAll('.pastEventsHeader, .patrons, .donorName').forEach(el => el.style.color = oppositeTextColor);
     
     const imageUrl = theme === 'dark' 
       ? 'https://raw.githubusercontent.com/pkzstar/plus-side/96e3c064c37da4290e7c24a7c7b6c1cc8ea2c8cb/images/imageLight.png' 

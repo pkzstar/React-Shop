@@ -5,7 +5,7 @@ import './index.css'
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import NavBarComponent from './components/navbar';
 import ArticlesPage from './pages/Articles'; 
-import EventModule from './components/EventsList.js';
+import EventModule from './components/EventsList.jsx';
 import Calendar from './components/Calendar/Calendar.jsx'
 
 
