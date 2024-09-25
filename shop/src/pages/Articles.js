@@ -69,15 +69,6 @@ const ArticlesPage = () => {
         </ul>
       </div>
 
-      <div className="patronsCenter">
-        <a className="patrons whiteText" href="../patreon/patreons.html">A huge thank you to all our patrons!</a>
-      </div>
-
-      <div className="wavesBoth">
-        <img className="wave" src="https://github.com/pkzstar/plus-side/blob/main/images/wave-41459%20(3).png?raw=true" alt="Wave" />
-        <img className="waveReverse" src="https://github.com/pkzstar/plus-side/blob/main/images/wave-41459%20(3).png?raw=true" alt="Wave Reverse" />
-      </div>
-
       {/* <script src={lightMode} />
       <script src={script} /> */}
     </div>

@@ -8,9 +8,9 @@ const HomeHeader = () => {
   return (
     <div>
       <ThemeToggleComponent />
+      <PastEventsButton/>
       <div className="wallpaper"></div>
       <div className="wallpaper2"></div>
-      <PastEventsButton/>
 
       <div className="upcomingImageParent">
         <h1 id="pageHeader" className="textGradient">UPCOMING EVENTS</h1>

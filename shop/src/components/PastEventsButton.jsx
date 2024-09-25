@@ -1,3 +1,4 @@
+
 function PastEventsButton() {
     return(
 
@@ -5,7 +6,7 @@ function PastEventsButton() {
         <p className="pastEventsHeader">Past Events</p>
         <div className="pastEventsList">
           <p className="pastYearWrapper">
-            <a href="../past-events/2023.html" className="past-year">2023</a>
+            <a href="pastEvents2023" className="past-year">2023</a>
           </p>
           <p className="pastYearWrapper">
             <a href="../past-events/2024.html" className="past-year">2024</a>
