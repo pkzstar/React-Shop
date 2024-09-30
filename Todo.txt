@@ -1,3 +1,5 @@
+split up react app projects into seperate repositories 
+
 fix dark mode not default
 
 use usestate to handle forms for rukai, also make the color of the number green or red depening on advantage
