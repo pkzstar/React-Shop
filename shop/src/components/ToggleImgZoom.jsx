@@ -7,7 +7,7 @@ const ImageZoom = ({ imgId, src, alt, className }) => {
     const img = document.getElementById(imgId);
     if (isEnlarged) {
       // Shrink the image
-      img.style.width = '30%'; // Adjust the size as needed
+      img.style.width = '40%'; // Adjust the size as needed
       img.style.height = 'auto';
       img.style.cursor = 'zoom-in'; // Change cursor back to zoom-in
     } else {
@@ -26,7 +26,7 @@ const ImageZoom = ({ imgId, src, alt, className }) => {
       alt={alt}
       className={className}
       onClick={toggleZoom}
-      style={{ cursor: 'zoom-in', width: '30%', transition: 'width 0.3s ease' }} // Default cursor and initial width
+      style={{ cursor: 'zoom-in', width: '40%', transition: 'width 0.3s ease' }} // Default cursor and initial width
     />
   );
 };

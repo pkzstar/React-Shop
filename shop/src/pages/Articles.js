@@ -190,7 +190,7 @@ const ArticlesPage = () => {
 
 {/* HDRank 2023: 15-6 */}
 <li style={{ flex: 0 }} className="articleStyle">
-  <a href="articles/HDRTop50-15-6.html">
+  <a href="HDRTop50-15-6">
     <img
       className="article-banner"
       src="https://github.com/pkzstar/plus-side/blob/main/images/Article-images/HDR%20Top%2050%202024/hdrankintro_11.png?raw=true"
@@ -199,7 +199,7 @@ const ArticlesPage = () => {
   </a>
   <div>
     <h1 style={{ flex: 100 }} className="article-head">
-      <a href="articles/HDRTop50-15-6.html" className="articleTitle">
+      <a href="HDRTop50-15-6" className="articleTitle">
         HDRank 2023: 15-6
       </a>
       <p style={{ display: 'block' }} className="article-date">
@@ -216,13 +216,13 @@ const ArticlesPage = () => {
     <p className="article-body">
       Announcing a special project: the HDRank North American 2023 Top 25 List! We'll be revealing the results of the first ever HDRank ballot to celebrate those who have put their all into competing in NA HewDraw Remix throughout 2023.
     </p>
-    <a className="articleRead" href="articles/HDRTop50-15-6.html">Read More</a>
+    <a className="articleRead" href="HDRTop50-15-6">Read More</a>
   </div>
 </li>
 
 {/* HDRank 2023: 25-16 */}
 <li style={{ flex: 0 }} className="articleStyle">
-  <a href="articles/HDRTop50-25-16.html">
+  <a href="HDRTop50-25-16">
     <img
       className="article-banner"
       src="https://github.com/pkzstar/plus-side/blob/main/images/Article-images/HDR%20Top%2050%202024/hdrankintro_11.png?raw=true"
@@ -231,7 +231,7 @@ const ArticlesPage = () => {
   </a>
   <div>
     <h1 style={{ flex: 100 }} className="article-head">
-      <a href="articles/HDRTop50-25-16.html" className="articleTitle">
+      <a href="HDRTop50-25-16" className="articleTitle">
         HDRank 2023: 25-16
       </a>
       <p style={{ display: 'block' }} className="article-date">
@@ -247,7 +247,7 @@ const ArticlesPage = () => {
     <p className="article-body">
       Announcing a special project: the HDRank North American 2023 Top 25 List! We'll be revealing the results of the first ever HDRank ballot to celebrate those who have put their all into competing in NA HewDraw Remix throughout 2023.
     </p>
-    <a className="articleRead" href="articles/HDRTop50-25-16.html">Read More</a>
+    <a className="articleRead" href="HDRTop50-25-16">Read More</a>
   </div>
 </li>
 
