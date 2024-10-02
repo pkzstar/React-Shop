@@ -1,13 +1,13 @@
 import React from 'react';
-import ThemeToggleComponent from './LightMode.js';
 import CalendarButton from './Calendar/CalendarButton.jsx';
 import RukaiForm from './RukaiForm.jsx';
 import PastEventsButton from './PastEventsButton.jsx';
 
+
 const HomeHeader = () => {
   return (
-    <div>
-      <ThemeToggleComponent />
+    
+    <>
       <PastEventsButton/>
       <div className="wallpaper"></div>
       <div className="wallpaper2"></div>
@@ -18,7 +18,7 @@ const HomeHeader = () => {
 
       <CalendarButton />
       <RukaiForm/>
-    </div>
+    </>
   );
 };
 

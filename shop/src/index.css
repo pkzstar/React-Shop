@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 body {
   font-family: 'nunito';
   background-color: rgb(0, 0, 0);
@@ -189,10 +191,12 @@ div.past-events-drop.calView:hover {
 }
 .dropdown-links:hover {
   transform: scale3d(1.1, 1.1, 1.1);
-  transition: transform 0.3s ease
+  transition: transform 0.3s ease;
 }
 .pastYearWrapper {
-  margin: 0;
+  margin: -10% -25px 0 0px;
+  justify-content: center;
+  display: flex;
 }
 .pastEventsList {
   margin: 10px 60px 0 0;
@@ -201,7 +205,7 @@ div.past-events-drop.calView:hover {
 }
 a.past-year {
   color:  rgb(10, 180, 88);
-  margin: 0 0px 0 0px;
+  margin: 0 0 0 5px;
 }
 a.past-year:hover {
   color: rgb(167, 83, 247);
@@ -319,7 +323,7 @@ input.inputPressure {
 }
 #calcOutPut {
   display: block;
-  font-size: 30px;
+  font-size: 25px;
   color: #ffffff;
   margin: 10px 0 0 0;
 }
@@ -511,7 +515,7 @@ input.inputPressure {
   font-size: 30px;
   position: absolute;
   right: 0;
-
+  margin: -1% 0 0 0;
 }
 p.pastEventsHeader { 
 margin: 10px 30px 0 0;
@@ -586,9 +590,6 @@ justify-content: space-between;
 
 .upcomingImageParent {
   margin: .5%;
-}
-a.past-year {
-  margin: .5%
 }
 button:active,
 button:focus {
@@ -1623,4 +1624,8 @@ img.events-banners-trans {
   p.top3 {
       margin: 10px 0 10px 0;
   }
+}
+
+img.center {
+  margin: 0 50% 0 50%;
 }

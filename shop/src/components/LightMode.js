@@ -49,7 +49,7 @@ const ThemeToggleComponent = () => {
   }, [theme]);
 
   return (
-    <div>
+    <>
       <img
         ref={bulbRef}
         className="lightBulb"
@@ -57,7 +57,7 @@ const ThemeToggleComponent = () => {
         onClick={toggleTheme}
       />
       {/* Add other elements/components here */}
-    </div>
+    </>
   );
 };
 
