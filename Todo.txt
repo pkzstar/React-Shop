@@ -14,7 +14,7 @@ fix pmr img spin
 
 rebuild calendar from scratch
 
-article migration 2/14
+article migration 3/14
 
 patron styling
 

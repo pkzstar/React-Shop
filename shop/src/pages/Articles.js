@@ -61,7 +61,7 @@ const ArticlesPage = () => {
 
 {/* console-capture */}
 <li style={{ flex: 0 }} className="articleStyle">
-  <a href="articles/console-capture.html">
+  <a href="Console-capture">
     <img
       className="article-banner"
       src="https://github.com/pkzstar/plus-side/blob/main/images/Article-images/console-capture/ConsoleCapture.png?raw=true"
@@ -70,7 +70,7 @@ const ArticlesPage = () => {
   </a>
   <div>
     <h1 style={{ flex: 100 }} className="article-head">
-      <a href="articles/console-capture.html" className="articleTitle">
+      <a href="Console-capture" className="articleTitle">
         Motobug's In-Depth Guide to Project M Console Capture
       </a>
       <p style={{ display: 'block' }} className="article-date">
@@ -86,7 +86,7 @@ const ArticlesPage = () => {
     <p className="article-body">
       Just getting a weekly started and interested in having a stream, or looking for the path to the highest quality capture possible? Whatever your situation may be, this guide will walk you through a variety of configurations for recording across many different price points.
     </p>
-    <a className="articleRead" href="articles/console-capture.html">
+    <a className="articleRead" href="Console-capture">
       Read More
     </a>
   </div>
@@ -159,7 +159,7 @@ const ArticlesPage = () => {
 
 {/* HDRank 2023: 5-1 */}
 <li style={{ flex: 0 }} className="articleStyle">
-  <a href="articles/HDRTop50-5-1.html">
+  <a href="HDRTop50-5-1">
     <img
       className="article-banner"
       src="https://github.com/pkzstar/plus-side/blob/main/images/Article-images/HDR%20Top%2050%202024/hdrankintro_11.png?raw=true"
@@ -168,7 +168,7 @@ const ArticlesPage = () => {
   </a>
   <div>
     <h1 style={{ flex: 100 }} className="article-head">
-      <a href="articles/HDRTop50-5-1.html" className="articleTitle">
+      <a href="HDRTop50-5-1" className="articleTitle">
         HDRank 2023: 5-1
       </a>
       <p style={{ display: 'block' }} className="article-date">
@@ -184,7 +184,7 @@ const ArticlesPage = () => {
     <p className="article-body">
       Announcing a special project: the HDRank North American 2023 Top 25 List! We'll be revealing the results of the first ever HDRank ballot to celebrate those who have put their all into competing in NA HewDraw Remix throughout 2023.
     </p>
-    <a className="articleRead" href="articles/HDRTop50-5-1.html">Read More</a>
+    <a className="articleRead" href="HDRTop50-5-1">Read More</a>
   </div>
 </li>
 

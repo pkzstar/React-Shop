@@ -15,6 +15,10 @@ import PastEvents2025Page from './pages/Past-Events/PastEvents2025Page.jsx'
 import PatronsPage from './pages/Patrons'
 import HistoryOfHoneypot from './pages/Articles/The-History-Of-Honeypot.jsx'
 import Undertow2024 from './pages/Articles/What-to-expect-at-Undertow-2024.jsx';
+import ConsoleCapture from './pages/Articles/console-capture.jsx';
+import HDRTop5051 from './pages/Articles/HDRTop50-5-1.jsx';
+// import HDRTop50156 from './pages/Articles/HDRTop50-15-6.jsx';
+// import HDRTop502516 from './pages/Articles/HDRTop50-25-16.jsx';
 
 
 
@@ -35,7 +39,10 @@ function App() {
             <Route path="/Patrons" element={<PatronsPage />} />
             <Route path='/The-History-Of-Honeypot' element={<HistoryOfHoneypot />} />
             <Route path='/What-to-expect-at-Undertow-2024' element={<Undertow2024 />} />
-
+            <Route path='/Console-capture' element={<ConsoleCapture />} />
+            <Route path='/HDRTop50-5-1' element={<HDRTop5051 /> } />
+            {/* <Route path='/HDRTop50-15-6' element={<HDRTop50156 />} />
+            <Route path='/HDRTop50-25-16' element={<HDRTop502516 />} /> */}
 
 
 

@@ -12,7 +12,7 @@ const ImageZoom = ({ imgId, src, alt, className }) => {
       img.style.cursor = 'zoom-in'; // Change cursor back to zoom-in
     } else {
       // Enlarge the image
-      img.style.width = '50%'; // Adjust the size as needed
+      img.style.width = '70%'; // Adjust the size as needed
       img.style.height = 'auto';
       img.style.cursor = 'zoom-out'; // Change cursor to zoom-out
     }
