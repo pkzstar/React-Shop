@@ -6,7 +6,6 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import NavBarComponent from './components/navbar';
 import ArticlesPage from './pages/Articles'; 
 import EventModule from './components/EventsList.js';
-import Calendar from './components/Calendar/Calendar.jsx'
 import PatronsFooter from './components/PatronsFooter.jsx';
 import './components/patreon.css'
 import ThemeToggleComponent from './components/LightMode.js';
@@ -27,7 +26,6 @@ function App() {
           <Routes>
             <Route path="/articles" element={<ArticlesPage />} />
             <Route path="/" element={<EventModule />} />
-            <Route path="/calendar" element= {<Calendar />} />
             <Route path="/2023" element= {<PastEvents2023Page />} />
             <Route path="/2024" element= {<PastEvents2024Page />} />
             <Route path="/2025" element= {<PastEvents2025Page />} />

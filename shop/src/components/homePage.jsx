@@ -1,5 +1,4 @@
 import React from 'react';
-import CalendarButton from './Calendar/CalendarButton.jsx';
 import RukaiForm from './RukaiForm.jsx';
 import PastEventsButton from './PastEventsButton.jsx';
 
@@ -16,7 +15,6 @@ const HomeHeader = () => {
         <h1 id="pageHeader" className="textGradient">UPCOMING EVENTS</h1>
       </div>
 
-      <CalendarButton />
       <RukaiForm/>
     </>
   );
