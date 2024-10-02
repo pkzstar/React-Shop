@@ -4,6 +4,8 @@ import React from 'react';
 import '../index.css';
 import PatronsFooter from '../components/PatronsFooter'; 
 
+
+
 const ArticlesPage = () => {
   return (
     
@@ -251,7 +253,7 @@ const ArticlesPage = () => {
 
 {/* The History Of Honeypot */}
 <li style={{ flex: 0 }} className="articleStyle">
-  <a href="articles/The-History-Of-Honeypot.html">
+  <a href="The-History-Of-Honeypot">
     <img
       className="article-banner"
       src="https://github.com/pkzstar/plus-side/blob/main/images/articles/HistoryOfHoneypot.png?raw=true"
@@ -260,7 +262,7 @@ const ArticlesPage = () => {
   </a>
   <div>
     <h1 style={{ flex: 100 }} className="article-head">
-      <a href="articles/The-History-Of-Honeypot.html" className="articleTitle">
+      <a href="The-History-Of-Honeypot" className="articleTitle">
         The History Of Honeypot
       </a>
       <p style={{ display: 'block' }} className="article-date">
@@ -271,7 +273,7 @@ const ArticlesPage = () => {
     <p className="article-body">
       It’s been over two years since Honeypot’s inception as a series, with the tournament approaching its sixth iteration this December. Honeypot has become such a mainstay tournament in the Project+ community post-quarantine that many assume it has been a part of the series since the first one. In reality, Project+ made its debut in the event lineup at Honeypot 2, and funnily enough, it has Nickelodeon All-Star Brawl to thank for it.
     </p>
-    <a className="articleRead" href="articles/The-History-Of-Honeypot.html">Read More</a>
+    <a className="articleRead" href="The-History-Of-Honeypot">Read More</a>
   </div>
 </li>
 
