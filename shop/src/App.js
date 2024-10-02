@@ -14,6 +14,7 @@ import PastEvents2024Page from './pages/Past-Events/PastEvents2024Page.jsx'
 import PastEvents2025Page from './pages/Past-Events/PastEvents2025Page.jsx'
 import PatronsPage from './pages/Patrons'
 import HistoryOfHoneypot from './pages/Articles/The-History-Of-Honeypot.jsx'
+import Undertow2024 from './pages/Articles/What-to-expect-at-Undertow-2024.jsx';
 
 
 
@@ -33,6 +34,9 @@ function App() {
             <Route path="/2025" element= {<PastEvents2025Page />} />
             <Route path="/Patrons" element={<PatronsPage />} />
             <Route path='/The-History-Of-Honeypot' element={<HistoryOfHoneypot />} />
+            <Route path='/What-to-expect-at-Undertow-2024' element={<Undertow2024 />} />
+
+
 
 
 

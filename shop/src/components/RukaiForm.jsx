@@ -7,7 +7,7 @@ const RukaiForm = () => {
   const [calcResult, setCalcResult] = useState('');
   const inputHitLagRef = useRef(null);
   const inputShieldStunRef = useRef(null);
-  const NaN = "Enter some numbers...";
+  const NaN = "Enter some numbers..."
 
   const calcOption = () => {
     setShowForm(prevShowForm => !prevShowForm);
@@ -47,7 +47,7 @@ const RukaiForm = () => {
             Submit
           </button>
           {calcResult && <p id="calcOutPut" style={{ color: calcResult === '0' ? 'white': calcResult > 0 ? 'rgb(10, 180, 88)' : 'red', display: calcResult === 'NaN' ? 'none' : 'block'}}>{calcResult}</p>}
-        {isNaN(calcResult) && (<p className='whiteText' style={{fontSize: '25px', margin: '10px 0 0 0'}}>{NaN}</p>)};
+        {isNaN(calcResult) && (<p style={{fontSize: '25px', margin: '10px 0 0 0', color: 'red'}}>{NaN}</p>)}
         </div>
       )}
     </>

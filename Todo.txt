@@ -1,11 +1,21 @@
-split up react app projects into seperate repositories 
+split up react app projects into seperate repositories
 
-fix dark mode not default
+~~fix dark mode not default~~
 
-use usestate to handle forms for rukai, also make the color of the number green or red depening on advantage
+~~fix img zoom~~
+
+~~rukai form cleanup~~
+
+~~past events setup~~
+
+~~article wallpaper fix~~
+
+fix pmr img spin
 
 rebuild calendar from scratch
 
-the rest of the site lol
+article migration 2/14
+
+patron styling
 
 apis

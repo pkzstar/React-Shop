@@ -24,7 +24,7 @@ const ArticlesPage = () => {
 
 {/* undertow2024 */}
         <li style={{ flex: 0 }} className="articleStyle">
-  <a href="articles/What-to-expect-at-Undertow-2024.html">
+  <a href="What-to-expect-at-Undertow-2024">
     <img
       className="article-banner"
       src="https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F642892%2Fimage-f6f59f3c810c3cfe893c378bf0166592-optimized.png&ehk=xq11TdY6oUHl%2FhdDbDBG2rd1LrLSi%2BZxoxQSag44e0o%3D&w=280&h=280&r=0"
@@ -33,7 +33,7 @@ const ArticlesPage = () => {
   </a>
   <div>
     <h1 style={{ flex: 100 }} className="article-head">
-      <a href="articles/What-to-expect-at-Undertow-2024.html" className="articleTitle">
+      <a href="What-to-expect-at-Undertow-2024" className="articleTitle">
         What to expect at Undertow 2024
       </a>
       <p style={{ display: 'block' }} className="article-date">
@@ -53,7 +53,7 @@ const ArticlesPage = () => {
       The entirety of 2023 only peaked at 113 entrants with Mile High Club. So going into the
       stacked event this weekend, who of these 122 players should we look out for?
     </p>
-    <a className="articleRead" href="articles/What-to-expect-at-Undertow-2024.html">
+    <a className="articleRead" href="What-to-expect-at-Undertow-2024">
       Read More
     </a>
   </div>

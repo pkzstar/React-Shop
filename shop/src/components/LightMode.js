@@ -1,12 +1,26 @@
 import React, { useState, useEffect, useRef } from 'react';
 
+// Update background images for wallpapers
+function updateBackgroundImages(imageUrl) {
+    const wallPapers = document.getElementsByClassName("wallpaperStatic");
+    const wallPapers2 = document.getElementsByClassName("wallpaperLightStatic");
+
+    for (let i = 0; i < wallPapers.length; i++) {
+        wallPapers[i].style.backgroundImage = `url('${imageUrl}')`;
+    }
+
+    for (let i = 0; i < wallPapers2.length; i++) {
+        wallPapers2[i].style.backgroundImage = `url('${imageUrl}')`;
+    }
+}
+console.log("dark mode enabled");
+
 const useTheme = () => {
   // Initialize theme based on local storage or default to 'dark'
   const [theme, setTheme] = useState(() => {
     const savedTheme = localStorage.getItem('theme');
-    return savedTheme ? savedTheme : 'light'; 
+    return savedTheme ? savedTheme : 'dark'; 
   });
-  
 
   const toggleTheme = () => {
     const newTheme = theme === 'dark' ? 'light' : 'dark';
@@ -35,17 +49,18 @@ const ThemeToggleComponent = () => {
       : 'https://www.emphysys.com/wp-content/uploads/2015/04/iconmonstr-light-bulb-17-icon-256.png';
     bulbRef.current.src = bulbImage;
     
-    const bgColor = theme === 'dark' ? 'black' : 'white';
     const oppositeTextColor = theme === 'dark' ? 'black' : 'white';
     
-    document.body.style.backgroundColor = bgColor;
-    document.querySelectorAll('.pastEventsHeader, .patrons, .donorName').forEach(el => el.style.color = oppositeTextColor);
+    document.querySelectorAll('.pastEventsHeader, .patrons, .donorName, .colorSwap').forEach(el => el.style.color = oppositeTextColor);
     
     const imageUrl = theme === 'dark' 
       ? 'https://raw.githubusercontent.com/pkzstar/plus-side/96e3c064c37da4290e7c24a7c7b6c1cc8ea2c8cb/images/imageLight.png' 
       : 'https://github.com/pkzstar/plus-side/blob/main/images/bg100.png?raw=true';
       
     document.querySelectorAll('.wallpaper, .wallpaper2').forEach(el => el.style.backgroundImage = `url('${imageUrl}')`);
+    
+    // Call the updateBackgroundImages function
+    updateBackgroundImages(imageUrl);
   }, [theme]);
 
   return (
