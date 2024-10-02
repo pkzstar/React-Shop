@@ -2,11 +2,7 @@
 
 import React from 'react';
 import '../index.css';
-
-
-
-// import lightMode from '../generaljscss/lightMode.js';
-// import script from '../generaljscss/script.js'; 
+import PatronsFooter from '../components/PatronsFooter'; 
 
 const ArticlesPage = () => {
   return (
@@ -414,8 +410,8 @@ const ArticlesPage = () => {
         </ul>
       </div>
 
-      {/* <script src={lightMode} />
-      <script src={script} /> */}
+      <PatronsFooter/>
+
     </div>
   );
 };

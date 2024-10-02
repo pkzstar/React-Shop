@@ -3,6 +3,7 @@
 import React from 'react';
 import EventList2023 from '../../components/PastEventsList2023';
 import PastEventsButton from '../../components/PastEventsButton';
+import PatronsFooter from '../../components/PatronsFooter';
 
 
 
@@ -17,6 +18,7 @@ const PastEvents2023Page = () => {
         <h1 id="pageHeader" className="textGradient">2023 PAST EVENTS</h1>
       </div>
 <EventList2023/>
+<PatronsFooter/>
     </div>
   );
 };

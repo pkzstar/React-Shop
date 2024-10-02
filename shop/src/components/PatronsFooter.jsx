@@ -1,7 +1,7 @@
 function PatronsFooter() {
     return (
         <footer className="patronsCenter">
-            <a className="patrons whiteText" href="/patreon/patreons.html">
+            <a className="patrons whiteText" href="Patrons">
                 A huge thank you to all our patrons!
             </a>
             <div className="wavesBoth">

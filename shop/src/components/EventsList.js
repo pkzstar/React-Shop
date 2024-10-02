@@ -1,5 +1,6 @@
 import React from 'react';
 import HomeHeader from './homePage.jsx';
+import PatronsFooter from './PatronsFooter.jsx';
 
 
 
@@ -262,6 +263,8 @@ function EventModule() {
     <div id="eventsList">
         <HomeHeader />
       <EventLoop eventsData={eventsData} />
+      <PatronsFooter/>
+
     </div>
   );
 }
