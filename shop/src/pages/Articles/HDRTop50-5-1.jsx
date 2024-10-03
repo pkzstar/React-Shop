@@ -10,7 +10,7 @@ const HDRTop5051 = () => {
 <div className="article-page-text">
   <h1 id="pageHeader" className="textGradient">HDRank 2023: 5-1</h1>
 
-  <h3 style={{ display: "block" }}>
+  <h3 className="colorSwap" style={{ display: "block" }}>
     Written by<a id="articleLink" href="https://twitter.com/getrektangles" target="_blank" rel="noopener noreferrer">&nbsp;@getrektangles</a>, 
     <a id="articleLink" href="https://twitter.com/BigSoo22" target="_blank" rel="noopener noreferrer">&nbsp;@BigSoo22</a>, 
     <a id="articleLink" href="https://twitter.com/TopHatSTL" target="_blank" rel="noopener noreferrer">&nbsp;@TopHatSTL</a>, 

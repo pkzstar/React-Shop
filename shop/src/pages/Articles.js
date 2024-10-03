@@ -95,7 +95,7 @@ const ArticlesPage = () => {
 
 {/* bigger mile high */}
 <li style={{ flex: 0 }} className="articleStyle">
-  <a href="articles/The-Bigger-Mile-High-Club.html">
+  <a href="The-Bigger-Mile-High-Club">
     <img
       className="article-banner"
       src="https://github.com/pkzstar/plus-side/blob/main/images/Article-images/tbmhc/tbmhc%20img.png?raw=true"
@@ -104,7 +104,7 @@ const ArticlesPage = () => {
   </a>
   <div>
     <h1 style={{ flex: 100 }} className="article-head">
-      <a href="articles/The-Bigger-Mile-High-Club.html" className="articleTitle">
+      <a href="The-Bigger-Mile-High-Club" className="articleTitle">
         The Bigger Mile High Club and my time as a TO
       </a>
       <p style={{ display: 'block' }} className="article-date">
@@ -120,7 +120,7 @@ const ArticlesPage = () => {
     <p className="article-body">
       After a little bit of time, the idea got floated of using the amazing venue we had to run a bigger event like a regional. I wrote way more about this and how Colorado has grown as a scene in a prior article I wrote for PlusSide about Mile High Club. Before Mile High Club was even over, I had the date locked in for “MHC 2”. 4/20/2024 in Denver, CO. With this new fire inside me, we brainstormed a list of people to reach out to. Some of which were Donkos, Ryzuul, Poilu, and old heads from every state. My work began again.
     </p>
-    <a className="articleRead" href="articles/The-Bigger-Mile-High-Club.html">
+    <a className="articleRead" href="The-Bigger-Mile-High-Club">
       Read More
     </a>
   </div>
