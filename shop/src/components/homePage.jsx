@@ -1,6 +1,7 @@
 import React from 'react';
 import RukaiForm from './RukaiForm.jsx';
 import PastEventsButton from './PastEventsButton.jsx';
+import CalendarButton from './CalendarButton.jsx';
 
 
 const HomeHeader = () => {
@@ -14,7 +15,7 @@ const HomeHeader = () => {
       <div className="upcomingImageParent">
         <h1 id="pageHeader" className="textGradient">UPCOMING EVENTS</h1>
       </div>
-
+      <CalendarButton/>
       <RukaiForm/>
     </>
   );

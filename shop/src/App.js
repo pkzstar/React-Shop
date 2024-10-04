@@ -13,6 +13,10 @@ import PastEvents2023Page from './pages/Past-Events/PastEvents2023Page.jsx'
 import PastEvents2024Page from './pages/Past-Events/PastEvents2024Page.jsx' 
 import PastEvents2025Page from './pages/Past-Events/PastEvents2025Page.jsx'
 import PatronsPage from './pages/Patrons'
+import Calendar from './pages/Calendar/Calendar.jsx';
+
+
+// articles
 import HistoryOfHoneypot from './pages/Articles/The-History-Of-Honeypot.jsx'
 import Undertow2024 from './pages/Articles/What-to-expect-at-Undertow-2024.jsx';
 import ConsoleCapture from './pages/Articles/console-capture.jsx';
@@ -45,6 +49,7 @@ function App() {
             <Route path='/HDRTop50-15-6' element={<HDRTop50156 />} />
             <Route path='/HDRTop50-25-16' element={<HDRTop502516 />} />
             <Route path='/The-Bigger-Mile-High-Club' element={<TheBiggerMile/>}/>
+            <Route path='/Calendar' element={<Calendar/>}/>
 
 
 

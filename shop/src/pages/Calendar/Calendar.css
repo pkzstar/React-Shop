@@ -1,0 +1,426 @@
+/* src/Calendar.css */
+.calendar-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center;
+    vertical-align: middle;
+}
+div.calendar {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+color: #000000;  
+
+}
+.month-year-selectors {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+
+}
+.month-nav-buttons {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.navigation {
+    background: rgb(147,255,214);
+    background: -moz-radial-gradient(circle, rgba(147,255,214,1) 65%, rgba(50,185,152,1) 90%);
+    background: -webkit-radial-gradient(circle, rgba(147,255,214,1) 65%, rgba(50,185,152,1) 90%);
+    background: radial-gradient(circle, rgba(147,255,214,1) 65%, rgba(50,185,152,1) 90%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#93ffd6",endColorstr="#32b998",GradientType=1);
+    box-shadow: 0px 0px 22px 0px  rgb(0, 0, 0);
+    padding: 10px;
+}
+select {
+    width: 25%;
+    background-color: transparent;
+    border:  rgb(228, 149, 248);
+border-style: groove;
+border-width: 4px;
+font-size: 20px;
+border-radius: 25%;
+margin: 1%;
+text-align: center;
+}
+button {
+    width: 100%;
+    background-color: transparent;
+    border:  rgb(228, 149, 248);
+border-style: groove;
+border-width: 4px;
+font-size: 20px;
+border-radius: 25%;
+margin: 1%;
+}
+button:hover {
+    background-color: rgb(196, 235, 250);
+box-shadow: 5px 5px 5px rgb(107, 107, 107);
+}
+select:hover {
+    background-color: rgb(196, 235, 250);
+box-shadow: 5px 5px 5px rgb(107, 107, 107);
+}
+select:focus-within {
+    background-color: rgb(196, 235, 250);
+box-shadow: 5px 5px 5px rgb(107, 107, 107);
+}
+select:active {
+    border: #000000;
+    border-width: 4px;
+    border-style: groove;}
+button:active {
+    border: #000000;
+    border-width: 4px;
+    border-style: groove;
+    }
+  .week-days {
+    display: flex;
+    justify-content: space-evenly;
+    background: -moz-linear-gradient(180deg, rgba(255,255,255,1) 5%, rgba(255,186,226,1) 30%, rgba(255,255,255,1) 80%);
+    background: -webkit-linear-gradient(180deg, rgba(255,255,255,1) 5%, rgba(255,186,226,1) 30%, rgba(255,255,255,1) 80%);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 5%, rgba(255,186,226,1) 30%, rgba(255,255,255,1) 80%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ffffff",GradientType=1); 
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    display: block;
+    align-items: center;
+    background: rgb(147,255,214);
+    background: -moz-radial-gradient(circle, rgba(147,255,214,1) 65%, rgba(50,185,152,1) 90%);
+    background: -webkit-radial-gradient(circle, rgba(147,255,214,1) 65%, rgba(50,185,152,1) 90%);
+    background: radial-gradient(circle, rgba(147,255,214,1) 65%, rgba(50,185,152,1) 90%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#93ffd6",endColorstr="#32b998",GradientType=1);
+    box-shadow: 0px 0px 22px 0px  rgb(0, 0, 0);
+}
+h2 {
+    font-size: 30px;
+}
+  .days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+        background: rgb(64,213,254);
+        background: -moz-linear-gradient(180deg, rgba(64,213,254,1) 0%, rgba(213,235,241,1) 90%);
+        background: -webkit-linear-gradient(180deg, rgba(64,213,254,1) 0%, rgba(213,235,241,1) 90%);
+        background: linear-gradient(180deg, rgba(64,213,254,1) 0%, rgba(213,235,241,1) 90%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#40d5fe",endColorstr="#d5ebf1",GradientType=1); 
+        text-align: center;
+        vertical-align: middle;
+  }
+  .empty {
+background-color: transparent;
+  }
+  div.day {
+    border: 1px solid #ccc;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    box-shadow: 0 0 15px 0  rgb(167, 83, 247);
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .calPosition {
+    text-align: center;
+  }
+  .calView {
+    font-size: 30px;
+    background: rgb(50,185,152);
+    background: -moz-linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#32b998",endColorstr="#ffffff",GradientType=1);    border-radius: 15px 15px 15px 15px;
+    padding-left: 18px;
+    padding-right: 18px;
+    box-shadow: 0 0 3px 0 rgb(0, 196, 16);
+        transition: .3s;
+        border-block-color: green;
+        border-style: double;
+        border-block-style: groove;
+       border-block-width: thick;
+       margin: 0 -20px 0 75px;
+       cursor: pointer;
+  }
+  .calViewList {
+    font-size: 30px;
+    background: rgb(50,185,152);
+    background: -moz-linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#32b998",endColorstr="#ffffff",GradientType=1);    border-radius: 15px 15px 15px 15px;
+    padding-left: 18px;
+    padding-right: 18px;
+    box-shadow: 0 0 3px 0 rgb(0, 196, 16);
+        transition: .3s;
+        border-block-color: green;
+        border-style: double;
+        border-block-style: groove;
+       border-block-width: thick;
+  }
+  .calView:hover
+    {
+        color: rgb(167, 83, 247);
+        box-shadow: 2px 2px 5px 1px rgb(0, 43, 4);
+        border-style: double;
+        border-block-style: groove;
+       border-block-width: thick;
+       box-shadow: 0 0 20px 0  rgb(167, 83, 247);
+       border-inline-color: rgb(113, 36, 255);
+       border-block-color: green;       
+  }
+  .calView:active {
+    color: rgb(27, 0, 199);
+  }
+  .calViewList:hover {
+    color: rgb(167, 83, 247);
+    cursor: pointer;
+    box-shadow: 0 0 20px 0  rgb(167, 83, 247);
+    border-inline-color: rgb(113, 36, 255);
+    border-block-color: green;
+  }
+  .calViewList:active {
+    color: rgb(27, 0, 199);
+  }
+  .listView {
+    margin-bottom: 6%;
+  }
+  .calViewListContainer {
+    display: flex;
+    justify-content: center;
+  }
+  button.calView {
+    font-size: 30px;
+    background: rgb(50,185,152);
+    background: -moz-linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#32b998",endColorstr="#ffffff",GradientType=1);    border-radius: 15px 15px 15px 15px;
+    padding-left: 18px;
+    padding-right: 18px;
+    box-shadow: 0 0 3px 0 rgb(0, 196, 16);
+        transition: .3s;
+        border-block-color: green;
+        border-style: double;
+        border-block-style: groove;
+       border-block-width: thick;
+       cursor: pointer;
+       margin: 0;
+  }
+  .card {
+    display: block;
+    align-items: center;
+    background: rgb(147,255,214);
+    background: -moz-radial-gradient(circle, rgba(147,255,214,1) 65%, rgba(50,185,152,1) 90%);
+    background: -webkit-radial-gradient(circle, rgba(147,255,214,1) 65%, rgba(50,185,152,1) 90%);
+    background: radial-gradient(circle, rgba(147,255,214,1) 65%, rgba(50,185,152,1) 90%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#93ffd6",endColorstr="#32b998",GradientType=1);
+    box-shadow: 0px 0px 22px 0px  rgb(0, 0, 0);
+}
+td {
+    text-align: center;
+    justify-content: center;
+}
+table {
+    background: rgb(64,213,254);
+    background: -moz-linear-gradient(180deg, rgba(64,213,254,1) 0%, rgba(213,235,241,1) 90%);
+    background: -webkit-linear-gradient(180deg, rgba(64,213,254,1) 0%, rgba(213,235,241,1) 90%);
+    background: linear-gradient(180deg, rgba(64,213,254,1) 0%, rgba(213,235,241,1) 90%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#40d5fe",endColorstr="#d5ebf1",GradientType=1); 
+}
+thead {
+    background: -moz-linear-gradient(180deg, rgba(255,255,255,1) 5%, rgba(255,186,226,1) 30%, rgba(255,255,255,1) 80%);
+    background: -webkit-linear-gradient(180deg, rgba(255,255,255,1) 5%, rgba(255,186,226,1) 30%, rgba(255,255,255,1) 80%);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 5%, rgba(255,186,226,1) 30%, rgba(255,255,255,1) 80%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ffffff",GradientType=1);
+}
+.bg-info {
+    background: rgb(63,247,251);
+    background: -moz-linear-gradient(125deg, rgba(63,247,251,1) 20%, rgba(115,141,252,1) 50%, rgba(255,173,189,1) 80%);
+    background: -webkit-linear-gradient(125deg, rgba(63,247,251,1) 20%, rgba(115,141,252,1) 50%, rgba(255,173,189,1) 80%);
+    background: linear-gradient(125deg, rgba(63,247,251,1) 20%, rgba(115,141,252,1) 50%, rgba(255,173,189,1) 80%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3ff7fb",endColorstr="#ffadbd",GradientType=1);
+}
+th {
+    text-align: center;
+}
+.card-header {
+    font-family: 'Nunito';
+    text-align: center;
+}
+.calendarImg {
+    border-radius: 25%;
+    height: 100px;
+    width: 100px;
+    transition: opacity 0.5s ease; /* Transition effect for fading */
+    /* position: absolute; */
+}
+
+.fade-in {
+  opacity: 1;
+  transition: opacity 1s ease-in;
+}
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 1s ease-out;
+}
+.calendarImg:hover {
+    cursor: unset;
+    transform: scale3d(1.1, 1.1, 1.1);
+    transition: transform 0.3s ease;
+}
+.calendar-container {
+    padding: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+  }
+  #calendar-body td {
+    text-align: center;
+    vertical-align: middle;
+  }
+  div.form.form-inline {
+    display: flex;
+    justify-content: space-evenly;
+  }
+#next, #previous {
+    color: #000000;
+    border-color:rgb(0, 0, 0);
+    font-size: large;
+}
+#month, #year {
+    margin-bottom: 20px;
+}
+label.lead {
+    margin-bottom: 20px;
+}
+.table-bordered {
+    width: fit-content;
+}
+@media only screen and (max-width: 767px) {
+    .container {
+        max-width: fit-content;
+        margin: 1% 1% 1% 1%;
+        padding: 1% 1% 1% 1%;
+    } 
+    .calendar-container  {
+        justify-content: center;
+        align-items: center;
+    } 
+    div.card  {
+        max-width: 90%;
+        margin: unset;
+        background: rgb(147,255,214);
+        background: -moz-radial-gradient(circle, rgba(147,255,214,1) 65%, rgba(50,185,152,1) 90%);
+        background: -webkit-radial-gradient(circle, rgba(147,255,214,1) 65%, rgba(50,185,152,1) 90%);
+        background: radial-gradient(circle, rgba(147,255,214,1) 65%, rgba(50,185,152,1) 90%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#93ffd6",endColorstr="#32b998",GradientType=1);
+        height: 100px;
+        margin-left: 550px;
+    } 
+    #calendar-body {
+        width: 1%;
+      }
+    thead {
+       font-size: calc(1vw + 1vh);
+    }
+    td  {
+        height: min-content;
+        width: 100%;
+    }  
+     table#calendar.table.table-bordered  {
+        width: 100%;
+    } 
+    .table {
+        table-layout: fixed;
+        height: min-content;
+    } 
+    #calendar  {
+    
+        justify-content: center;
+        align-items: center;
+    } 
+    .calendarImg {
+        height: auto;
+        width: 100%
+    }
+    .form-inline {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: -21px;
+        background: rgb(147,255,214);
+        background: -moz-radial-gradient(circle, rgba(147,255,214,1) 65%, rgba(50,185,152,1) 90%);
+        background: -webkit-radial-gradient(circle, rgba(147,255,214,1) 65%, rgba(50,185,152,1) 90%);
+        background: radial-gradient(circle, rgba(147,255,214,1) 65%, rgba(50,185,152,1) 90%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#93ffd6",endColorstr="#32b998",GradientType=1);
+    }
+    #next, #previous {
+        margin-top: 20px;
+    }
+    #month, #year {
+        margin-bottom: unset;
+    }
+    label.lead {
+        margin-bottom: unset;
+    }
+}
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* Make sure it covers everything */
+  }
+  
+  .loading-spinner {
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  .event-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .fade-in-out {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex; /* Ensure flex is used to align content */
+  }
+  
+  .overlay-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+  }
+  

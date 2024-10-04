@@ -374,39 +374,7 @@ h3.donorName {
 /* calendar & past events buttons */
 
 
-.past-events-drop {
-  display: inline-flex;
-  overflow: hidden;
-  cursor: pointer;
-}
-@media only screen and (max-width: 600px) {
-  
-  .past-events-drop {
-      font-size: 12px;
-      margin-top: 10px;
-      }
-}
-.past-events-drop .past-events-drop-btn {
-  cursor: pointer;
-  height: auto;
-  font-size: 30px;
-  border: none;
-  outline: none;
-  color: rgb(0, 0, 0);
-  background-color: inherit;
-  padding: 0;
-  overflow: visible;
-  z-index: 11111;
-}
 
-div.past-events-drop.calView:hover {
-  color: rgb(167, 83, 247);
-  transition: transform 0.3s ease
-}
-.past-events-drop-btn:hover {
-  color: rgb(167, 83, 247);
-  transition: transform 0.3s ease
-}
 @media only screen and (max-width: 600px) {
 
   div.past-events-drop.calView {
