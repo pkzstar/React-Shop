@@ -3,11 +3,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../index.css';
+import DigiClock from './DigiClock';
 
 
 function NavBarComponent() {
   return (
     <div className="headerNav">
+      <DigiClock />
       {/* Plus Side Link */}
       <Link to="/">
         <img 

@@ -14,7 +14,7 @@ import PastEvents2024Page from './pages/Past-Events/PastEvents2024Page.jsx'
 import PastEvents2025Page from './pages/Past-Events/PastEvents2025Page.jsx'
 import PatronsPage from './pages/Patrons'
 import Calendar from './pages/Calendar/Calendar.jsx';
-
+import DigiClock from './components/DigiClock.jsx';
 
 // articles
 import HistoryOfHoneypot from './pages/Articles/The-History-Of-Honeypot.jsx'
