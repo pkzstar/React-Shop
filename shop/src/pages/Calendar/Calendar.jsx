@@ -153,14 +153,14 @@ const Calendar = () => {
 
           {/* Render images for the events on this date */}
           {events && (Array.isArray(events) ? events : [events]).map((event, index) => (
-            <a key={index} href={event.link} target="_blank" rel="noopener noreferrer">
-              <img
-                id="event-image"
-                src={event.imageSrc}
-                alt="Event"
-                className={`calendarImg ${index === currentIndex ? 'fade-in' : 'fade-out'}`}
-              />
-            </a>
+        <a key={index} href={event.link} target="_blank" rel="noopener noreferrer">
+        <img
+          id="event-image"
+          src={event.imageSrc}
+          alt="Event"
+          className={`calendarImg ${index === currentIndex ? 'fade-in' : 'fade-out'}`}
+        />
+      </a>
           ))}
         </div>
       );
